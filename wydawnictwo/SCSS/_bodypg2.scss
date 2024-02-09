@@ -1,0 +1,134 @@
+.bodypg2{
+
+    height: $body-height;
+    width: auto;
+    overflow: auto;
+    position: relative;
+
+    #left{
+        height: $side-height;
+        width: auto;
+        float: left;
+        margin-top: $side-margin-top;
+        
+    }
+
+    #container{
+        width: $container-width;
+        height: auto;
+        position: absolute;
+        margin-top: $container-margin-top;
+
+
+        #title{
+                    
+
+            margin-top: $title-margin-top;
+            margin-inline: $title-margin-inline;
+            position: relative;
+            color: $body-font-colour;
+            font-family: $font-family;
+            text-decoration: none;
+            white-space: nowrap;
+            font-size: $title-font-size;
+
+        }
+
+
+
+        #img{
+            width: $img-left-width;
+            height: $img-left-height;
+            margin-left: $img-left-margin-left;
+            margin-right: $img-left-margin-right;
+            margin-top: $img-left-margin-top;
+            float: left;
+            display: inline;
+            position: relative;
+        }
+
+        #img2{
+            width: $img-right-width;
+            height: $img-right-height;
+            margin-top: $img-right-margin-top;
+            margin-left: $img-right-margin-left;
+            margin-right: $img-right-margin-right;
+            float: left;
+            display: inline;
+            position: relative;
+        }
+
+
+        #div{
+            width: $dv-width;
+            height: auto;
+            position: absolute;
+            margin-top: $dv-margin-top;
+
+
+            #p{
+                position:relative;
+                padding-top: $name1-padding-top;
+                padding-left: $name1-padding-left;
+                font-size: $name-font-size  ;
+                color: $body-font-colour;
+                font-family: $font-family;
+                text-decoration: none;
+
+                
+            }
+
+
+            #p2{
+
+                position:relative;
+                padding-top: $name1-padding-top;
+                padding-left: $name2-padding-left;
+                font-size: $name-font-size;
+                color: $body-font-colour;
+                font-family: $font-family;
+                text-decoration: none;
+            }
+
+            #p3{
+                position:relative;
+                padding-top: $name3-padding-top;
+                padding-left: $name3-padding-left;
+                font-size: $name-font-size;
+                color: $body-font-colour;
+                font-family: $font-family;
+                text-decoration: none;
+
+            }
+
+            #p4{
+                position:relative;
+                padding-top: $name4-padding-top;
+                padding-left: $name4-padding-left;
+                font-size: $name-font-size;
+                color: $body-font-colour;
+                font-family: $font-family;
+                text-decoration: none;
+
+                
+            }
+            
+        }
+
+
+    }
+
+
+
+    
+
+    #right{
+        height: $side-height;
+        width: auto;
+        margin-top: $side-margin-top;
+        float: right;
+    }
+}
+
+
+

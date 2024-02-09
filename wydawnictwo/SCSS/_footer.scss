@@ -1,0 +1,23 @@
+.footer{
+    height: $footer-height;
+    width: $footer-width;
+    background: $footer-background;
+    position: absolute;
+    bottom: $footer-bottom;
+
+    nav{
+        a{
+            color: $footer-nav-color;
+            font-family: $font-family;
+            text-decoration: none;
+            margin-left: $footer-nav-margin-left;
+            margin-right: $footer-nav-margin-right;
+            font-size: $footer-nav-font-size;
+
+        }
+
+    }
+
+
+
+}

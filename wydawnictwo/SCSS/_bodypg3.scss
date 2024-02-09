@@ -1,0 +1,66 @@
+.bodypg3{
+
+    height: $body-height;
+    width: auto;
+    overflow: auto;
+    position: relative;
+
+    #left{
+        height: $side-height;
+        width: auto;
+        float: left;
+        margin-top: $side-margin-top;
+        
+    }
+
+    #container{
+        width: $container-width;
+        height: auto;
+        position: absolute;
+        margin-top: $container-margin-top;
+
+        #img{
+            height: auto;
+            width: $f-logo-width;
+            margin-top: $f-logo-margin-top;
+            margin-left: $f-logo-margin-left;
+            position: relative;
+        }
+
+        #p{
+            position:relative;
+            padding-inline: $f-paragraph-padding-inline;
+            font-size: $f-paragraph-font-size;
+            color: $body-font-colour;
+            font-family: $font-family;
+            text-decoration: none;
+            text-align: center;
+
+        }
+
+        #link{
+            position:relative;
+            margin-top: $f-nav-margin-top;
+            padding-inline: $f-nav-padding-inline;
+            font-size: $f-nav-font-size;
+            color: $f-nav-color;
+            font-family: $font-family;
+            text-decoration: none;
+            text-align: center;
+
+        }
+
+    }
+
+
+
+    
+
+
+    #right{
+        height: $side-height;
+        width: auto;
+        margin-top: $side-margin-top;
+        float: right;
+    }
+}

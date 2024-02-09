@@ -1,0 +1,35 @@
+.header{
+    height: $header-height;
+    width: $header-width ;
+    background: $header-background;
+    background:$header-colour;
+    position: absolute;
+
+    header{
+        height: $header-nav-height;
+        width: $header-nav-width;
+        background-color: $header-nav-background;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position:static;
+
+
+        nav{
+            a{
+                margin-left: $header-nav-margin-left;
+                margin-right: $header-nav-margin-right;
+                color: $header-nav-font-color;
+                font-family: $font-family;
+                text-decoration: none;
+                font-size: $header-nav-font-size;
+
+        }
+    }
+
+
+
+
+    }
+}

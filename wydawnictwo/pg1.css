@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  height: 10vw;
+  width: 100%;
+  background: rgb(42, 56, 125);
+  background: linear-gradient(180deg, rgb(42, 56, 125) 14%, rgb(63, 76, 144) 32%, rgb(88, 101, 168) 51%, rgb(137, 147, 196) 75%, rgb(195, 201, 227) 100%);
+  position: absolute;
+}
+.header header {
+  height: 3vw;
+  width: 100%;
+  background-color: rgb(118, 134, 227);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: static;
+}
+.header header nav a {
+  margin-left: 14vw;
+  margin-right: 10vw;
+  color: white;
+  font-family: "El Messiri", sans-serif;
+  text-decoration: none;
+  font-size: 1.3vw;
+}
+
+.bodypg1 {
+  height: 78vw;
+  width: auto;
+  overflow: auto;
+  position: relative;
+}
+.bodypg1 #left {
+  height: 65vw;
+  width: auto;
+  float: left;
+  margin-top: 13vw;
+}
+.bodypg1 #container {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-top: 13vw;
+}
+.bodypg1 #container #pict {
+  width: 13vw;
+  height: 13vw;
+  margin-top: 1vw;
+  margin-inline: 42vw;
+  justify-content: center;
+  position: relative;
+}
+.bodypg1 #container #p {
+  position: relative;
+  padding-inline: 30vw;
+  font-size: 1.2vw;
+  color: darkblue;
+  font-family: "El Messiri", sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+.bodypg1 #container #pict2 {
+  width: 13vw;
+  height: 13vw;
+  margin-top: 1vw;
+  margin-inline: 42vw;
+  justify-content: center;
+  position: relative;
+}
+.bodypg1 #right {
+  height: 65vw;
+  width: auto;
+  margin-top: 13vw;
+  float: right;
+}
+
+.footer {
+  height: 5vw;
+  width: 100%;
+  background: rgb(42, 56, 125);
+  position: absolute;
+  bottom: 0;
+}
+.footer nav a {
+  color: white;
+  font-family: "El Messiri", sans-serif;
+  text-decoration: none;
+  margin-left: 14vw;
+  margin-right: 10vw;
+  font-size: 1.3vw;
+}/*# sourceMappingURL=pg1.css.map */

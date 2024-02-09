@@ -1,0 +1,72 @@
+
+.bodypg1{
+
+    height: $body-height;
+    width: auto;
+    overflow: auto;
+    position: relative;
+
+    #left{
+        height: $side-height;
+        width: auto;
+        float: left;
+        margin-top: $side-margin-top;
+        
+    }
+
+    #container{
+        width: $container-width;
+        height: auto;
+        position: absolute;
+        margin-top: $container-margin-top;
+
+        #pict{
+        
+
+            width: $pictogram1-width;
+            height: $pictogram1-height;
+            margin-top: $pictogram1-margin-top;
+            margin-inline: $pictogram1-margin-inline;
+            justify-content: center;
+            position: relative;
+    
+        }
+
+        #p{
+            position:relative;
+            padding-inline: $paragraph-padding-inline;
+            font-size: $paragraph-font-size;
+            color: $body-font-colour;
+            font-family: $font-family;
+            text-decoration: none;
+            text-align: center;
+
+
+        }
+
+        #pict2{
+
+            width: $pictogram23-width;
+            height: $pictogram23-height;
+            margin-top: $pictogram23-margin-top;
+            margin-inline: $pictogram23-margin-inline;
+            justify-content: center;
+            position: relative;
+
+        }
+
+        
+
+
+    }
+
+
+
+
+    #right{
+        height: $side-height;
+        width: auto;
+        margin-top: $side-margin-top;
+        float: right;
+    }
+}

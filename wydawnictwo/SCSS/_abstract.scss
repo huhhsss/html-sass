@@ -1,0 +1,164 @@
+//ogolne
+
+$font-family:'El Messiri', sans-serif;
+
+
+//header
+
+$header-height:10vw;
+$header-width: 100%;
+$header-colour: linear-gradient(180deg, rgba(42,56,125,1) 14%, rgba(63,76,144,1) 32%, rgba(88,101,168,1) 51%, rgba(137,147,196,1) 75%, rgba(195,201,227,1) 100%);
+$header-background:  rgb(42,56,125);
+
+//headernav
+
+$header-nav-height:3vw;
+$header-nav-width:100%;
+$header-nav-background:rgb(118, 134, 227);
+$header-nav-margin-left:14vw;
+$header-nav-margin-right:10vw;
+$header-nav-font-color:white;
+$header-nav-font-size:1.3vw;
+
+//body
+
+$body-height:78vw;
+$body-font-colour:darkblue;
+
+//side
+
+$side-height:65vw;
+$side-margin-top:13vw;
+
+
+
+//container
+
+$container-width:100%;
+$container-margin-top:13vw;
+
+
+//page1
+
+//pictogram-1
+
+$pictogram1-height:13vw;
+$pictogram1-width:13vw;
+$pictogram1-margin-top:1vw;
+$pictogram1-margin-inline:42vw ;
+
+
+
+//paragraph-1
+
+$paragraph-padding-inline:30vw;
+$paragraph-font-size:1.2vw;
+
+
+//pictogram-2&3
+
+$pictogram23-height:13vw;
+$pictogram23-width:13vw;
+$pictogram23-margin-top:1vw;
+$pictogram23-margin-inline:42vw;
+
+//page2
+
+//title
+
+$title-margin-top: 3vw;
+$title-margin-inline: 35vw;
+$title-font-size:2vw;
+
+
+
+//photos
+
+//img-left
+
+$img-left-height: 14vw;
+$img-left-width:14vw;
+$img-left-margin-left:30vw;
+$img-left-margin-right: 5vw;
+$img-left-margin-top: 3vw;
+
+
+
+//img-right
+
+
+$img-right-height: 14vw;
+$img-right-width: 14vw;
+$img-right-margin-top: 9vw;
+$img-right-margin-left:5vw;
+$img-right-margin-right:30vw;
+
+
+//div
+
+$dv-width:100%;
+$dv-margin-top: 13vw;
+
+
+//names
+
+$name-font-size: 3vw;
+
+
+//name1
+
+$name1-padding-top: 5vw;
+$name1-padding-left: 34vw;
+
+
+//name2
+
+$name2-padding-top: 3vw;
+$name2-padding-left: 57vw;
+//name3
+
+$name3-padding-top: 14vw;
+$name3-padding-left: 34.5vw;
+
+//name4
+
+$name4-padding-top: 3vw;
+$name4-padding-left: 57.5vw;
+
+
+//page3
+
+//logo
+
+$f-logo-width: 40vw;
+$f-logo-margin-top: 4vw;
+$f-logo-margin-left: 29vw;
+
+
+//paragaph
+
+$f-paragraph-padding-inline: 24vw;
+$f-paragraph-font-size: 1.5vw;
+
+//link
+
+$f-nav-margin-top: 3vw;
+$f-nav-padding-inline: 42vw;
+$f-nav-font-size: 1.5vw;
+$f-nav-color: rgb(97, 97, 221);
+
+
+//footer
+
+$footer-height: 5vw;
+$footer-width: 100%;
+$footer-background: rgb(42,56,125);
+$footer-bottom: 0;
+
+
+//footernav
+
+$footer-nav-color:white;
+$footer-nav-margin-left: 14vw;
+$footer-nav-margin-right: 10vw;
+$footer-nav-font-size: 1.3vw;
